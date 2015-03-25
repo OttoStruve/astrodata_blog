@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*- #
 import os
 
-AUTHOR = u'astrodata'
+AUTHOR = u'UT astrodata'
 
-SITENAME = u'Otto Struve'
-SITESUBTITLE = u'The UT Astrophysical Datanauts'
+SITENAME = u'Astrophysics in Austin'
+SITESUBTITLE = u'The UT Austin astronomy graduate student blog'
 SITEURL = '' # change in publishconf.py
 
 # Times and dates
@@ -19,7 +19,7 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Title menu options
 MENUITEMS = [('Archives', '/archives.html'),
-             ('Contributors', 'http://www.as.utexas.edu/astronomy/people/people.html?r=4')]
+             ('Who We Are', 'http://www.as.utexas.edu/astronomy/people/people.html?r=4')]
 NEWEST_FIRST_ARCHIVES = False
 
 #Github include settings
@@ -40,8 +40,13 @@ NEWEST_FIRST_ARCHIVES = False
 
 DEFAULT_PAGINATION = 10
 
+# STATIC_OUT_DIR requires https://github.com/jakevdp/pelican/tree/specify-static
+#STATIC_OUT_DIR = ''
+#STATIC_PATHS = ['images', 'figures', 'downloads']
+#FILES_TO_COPY = [('favicon.png', 'favicon.png')]
+
 # This requires Pelican 3.3+
-STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.ico']
+STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.ico', 'googleaeb21469659f4ce0.html']
 
 CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
