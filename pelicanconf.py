@@ -19,31 +19,20 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Title menu options
 MENUITEMS = [('Archives', '/archives.html'),
-             ('Who We Are', 'http://www.as.utexas.edu/astronomy/people/people.html?r=4')]
+             ('Who We Are', 'https://github.com/OttoStruve')]
 NEWEST_FIRST_ARCHIVES = False
 
-#Github include settings
-#GITHUB_USER = 'hummel'
-#GITHUB_REPO_COUNT = 0
-#GITHUB_SKIP_FORK = True
-#GITHUB_SHOW_USER_LINK = True
 
-# Blogroll
-#LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
-#          ('Python.org', 'http://python.org'),
-#          ('Jinja2', 'http://jinja.pocoo.org'),
-#          ('You can modify those links in your config file', '#'),)
+# Contributors
+LINKS =  (('Michael Gully-Santiago', 'http://gully.github.io/'),
+          ('Kevin Gullikson', 'http://www.as.utexas.edu/~kgulliks/'),
+          ('Jacob Hummel', 'http://www.as.utexas.edu/~jhummel/'),)
 
 # Social widget
 #SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
-
-# STATIC_OUT_DIR requires https://github.com/jakevdp/pelican/tree/specify-static
-#STATIC_OUT_DIR = ''
-#STATIC_PATHS = ['images', 'figures', 'downloads']
-#FILES_TO_COPY = [('favicon.png', 'favicon.png')]
 
 # This requires Pelican 3.3+
 STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.ico', 'googleaeb21469659f4ce0.html']
@@ -90,9 +79,11 @@ TWITTER_SHOW_FOLLOWER_COUNT = 'true'
 
 
 # RSS/Atom feeds
-FEED_DOMAIN = SITEURL
-FEED_ATOM = 'atom.xml'
-
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
 
 # Search
 SEARCH_BOX = True
