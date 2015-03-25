@@ -1,8 +1,10 @@
 Title: Hello World!
+Date: 2015-03-24 23:00
+Category: other
+Tags: written by Jacob
+Slug: first-post
 Author: Jacob Hummel
-date: 2015-03-24 23:00
-comments: true
-slug: first-post
+[//]: #(<-- This is a comment.)
 
 Welcome!
 -----------------------
