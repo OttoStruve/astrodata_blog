@@ -26,7 +26,9 @@ NEWEST_FIRST_ARCHIVES = False
 # Contributors
 LINKS =  (('Michael Gully-Santiago', 'http://gully.github.io/'),
           ('Kevin Gullikson', 'http://www.as.utexas.edu/~kgulliks/'),
-          ('Jacob Hummel', 'http://www.as.utexas.edu/~jhummel/'),)
+          ('Jacob Hummel', 'http://www.as.utexas.edu/~jhummel/'),
+          ('Aaron Smith', 'http://www.as.utexas.edu/~asmith/'),
+          ('Emma Yu', 'http://www.emmayu.com/'))
 
 # Social widget
 #SOCIAL = (('You can add links in your config file', '#'),
