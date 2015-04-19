@@ -1,7 +1,7 @@
 Title: Classification with Clouds!
 Date: 2015-04-19 23:00
-Category: MachineLearning,Classification
-Tags: written by Kevin
+Category: Machine Learning
+Tags: Classification, Weather, written by Kevin
 Slug: classification
 Author: Kevin Gullikson
 
@@ -55,7 +55,7 @@ cloud_data['cloudiness'] = cloud_data['cloud-Sky-ambient'].map(get_cloudiness)
 
 ## Exploratory Data Analysis
 Now that I have the data loaded up, let's take a look at it. The first thing to do is plot the temperature, relative humidity, and cloud cover class from the cloud sensor data:
-<img src='http://ottostruve.github.io/figures/Cloud_Data.png' >
+<img src='http://ottostruve.github.io/figures/Cloud_Data.png' width="1000">
 
 The heaviest cloud cover tends to happen at the extremes of the plot: high temperature, high humidity. That makes sense: higher temperatures mean more water vaper *can* be in the air, and higher humidity means more water vapor *is* in the air. Both will make clouds.
 
@@ -146,7 +146,7 @@ We immediately see that the tree picks out a couple things (which we already kno
   
 When I run the full tree, it ends up with 31 levels. The importance of each variable is shown below:
 
-<img src="http://ottostruve.github.io/figures/Decision_Tree_Importance.png">
+<img src="http://ottostruve.github.io/figures/Decision_Tree_Importance.png" width="500">
 
 Temperature and dew point are still the most important variables, but now the dust count and pressure show up as important too. The time derivative of temperature and relative humidity are not very useful predictors, so we will not use them for any of the final predictors. The overall cross-validation accuracy even increases a bit when we drop these variables!
 
@@ -186,7 +186,7 @@ The drop off towards large number of neighbors is the effect of increasing bias,
 
 We are finally in a position to estimate the cloud cover for the missing values. The figure below shows the cross-validation accuracy of each estimator.
 
-<img src="http://ottostruve.github.io/figures/Estimator_Accuracy.png">
+<img src="http://ottostruve.github.io/figures/Estimator_Accuracy.png" width="500">
 
 The best estimator for this dataset is k-nearest neighbors, with the random forest close on its heels. The best we can do is about 91.5% accuracy, but that is good enough for my purposes. 
 
