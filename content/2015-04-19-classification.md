@@ -188,7 +188,7 @@ We are finally in a position to estimate the cloud cover for the missing values.
 
 <img src="http://ottostruve.github.io/figures/Estimator_Accuracy.png" width="500">
 
-The best estimator for this dataset is k-nearest neighbors, with the random forest close on its heels. The best we can do is about 91.5% accuracy, but that is good enough for my purposes. 
+The best estimator for this dataset is k-nearest neighbors, with the random forest close on its heels. The best we can do is about 92% accuracy, but that is good enough for my purposes. 
 
 All that is left now is to fill in the missing values in the cloud data with the k-nearest neighbors estimation.
 
