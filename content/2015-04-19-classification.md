@@ -212,4 +212,4 @@ Are you at McDonald now? Try out my results. Ideally, I would like to have a web
  - [ipython notebook](http://ottostruve.github.io/downloads/Predict_Clouds.ipynb)
  - Pickled classifier (OS-dependent, I think. Right click and save as a file to download):
     - [Linux x86_64](http://ottostruve.github.io/downloads/classifier_linux_x86_64.pkl)
-    - [Mac OSX (coming soon)](http://ottostruve.github.io/downloads/classifier_mac_osx.pkl)
+    - [Mac OSX](http://ottostruve.github.io/downloads/classifier_mac_osx.pkl)
